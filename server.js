@@ -7,7 +7,7 @@ const app = express();
 const PORT = 5000;
 
 mongoose.connect('mongodb://127.0.0.1:27017/studentDB')
-    .then(() => console.log('MongoDB connected'))
+    .then(() => console.log(''))
     .catch(err => console.error('MongoDB connection error:', err));
 
 // Middleware
